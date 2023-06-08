@@ -205,20 +205,20 @@ body {
     }
     article {
       flex-basis: 100%;
+     
     }
     picture {
       margin: 0;
       flex-basis: 100%;
       }
       figure {
-        margin: 0;
+        margin: 3 rem;
         flex-basis: 100%;
         max-width:100%;
         }
-      a[class=“disable-link”] {
-        pointer-events: auto;
-        cursor: auto;
-     }
+    figure img{
+      margin-top:3rem;
+    }
 
      .products{
       grid-template-columns:1fr;
